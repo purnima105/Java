@@ -5,7 +5,6 @@ class exam
     public void setValueB(String Brand)
     {
         brand=Brand;
-        
     }
     public void setValueP(int Price)
     {
@@ -25,9 +24,9 @@ public class mob
     public static void main(String[]args)
     {
         exam obj =new exam();
-        obj.setValueB="realme";
+        obj.setValueB=("realme");
 
-        System.out.println(obj.setvalueB());
-    
+       System.out.println(obj.getvalueB());
+      
     }
 }
