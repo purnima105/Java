@@ -15,6 +15,7 @@ num=num/10;
 }while(num!=0);
 
 System.out.println("the sum of number is "+sum);
+sc.close();
 }
 }
 

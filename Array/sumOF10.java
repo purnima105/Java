@@ -13,10 +13,12 @@ public class sumOF10
             num[i]=sc.nextInt();
             sum=sum+num[i];
         }
+        
         System.out.println("The elements of array are: ");
         for(i=0;i<num.length;i++)
         {
             System.out.print(num[i]+" ");
         }
+        sc.close();
     }
 }

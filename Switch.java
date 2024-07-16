@@ -1,5 +1,5 @@
 import java.util.*;
-public class aalu
+public class Switch
 {
 public static void main (String[]args)
 {

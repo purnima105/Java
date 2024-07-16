@@ -1,5 +1,5 @@
 import java.util.*;
-public class Adding2numfromuser {
+public class Calculation {
 public void sum() {
 Scanner sc=new Scanner (System.in);
 System.out.println("enter the number: ");
@@ -8,10 +8,11 @@ System.out.println("enter the number: ");
 int b=sc.nextInt();
 int s=a+b;
 System.out.println("The sum is:"+s);
+sc.close();
 }
 public static void main(String[]args)
 {
-    Adding2numfromuser c1=new Adding2numfromuser();
+Calculation c1=new Calculation();
 c1.sum();
 }
 }
