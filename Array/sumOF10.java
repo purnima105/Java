@@ -19,6 +19,5 @@ public class sumOF10
         {
             System.out.print(num[i]+" ");
         }
-        sc.close();
     }
 }

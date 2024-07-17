@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class NOreturnNOargs
 {
     public void display() // no return -void 
-    {                       //no argument- braket khali
+    {                       //no argument
         Scanner sc = new Scanner (System.in);
         System.out.print("enter the two number :\n");
         int a=sc.nextInt();
