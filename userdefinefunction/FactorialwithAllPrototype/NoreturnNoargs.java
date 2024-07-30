@@ -2,7 +2,6 @@ package FactorialwithAllPrototype;
 import java.util.Scanner;
 public class NoreturnNoargs 
 {
-    
     public static void fact()
     {
         Scanner sc=new Scanner(System.in);
@@ -13,12 +12,10 @@ public class NoreturnNoargs
         {
             fact=fact*i;
         }
-        System.out.println("The factorial is = "+ fact);    }
+        System.out.println("The factorial is = "+ fact);    
+    }
     public static void main(String[]args)
     {
         fact();
     }
-
-
-    
 }

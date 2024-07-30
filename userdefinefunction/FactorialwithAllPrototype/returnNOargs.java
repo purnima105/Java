@@ -4,10 +4,10 @@ public class returnNOargs {
     public static int facto()
     {
         Scanner sc= new Scanner(System.in);
-        System.out.println("enter the value of num: ");
-        int num = sc.nextInt();
+        System.out.println("enter the value of n: ");
+        int n = sc.nextInt();
         int i,fact=1;
-        for(i=1;i<=num;i++)
+        for(i=1;i<=n;i++)
         {
             fact=fact*i;
         }
