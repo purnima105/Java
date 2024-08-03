@@ -20,6 +20,7 @@ public class withReturnANDarg
         int n = sc.nextInt();
         int fac= facto(n);
         System.out.println("The factorial is = "+ fac);
+        sc.close();
     }
     
 }

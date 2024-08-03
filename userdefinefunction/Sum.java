@@ -16,7 +16,7 @@ public class Sum {
         int b= sc.nextInt();
         int s=SumCall(a,b);
         System.out.println("the sum is ="+s);
-
+        sc.close();
 
     }
     

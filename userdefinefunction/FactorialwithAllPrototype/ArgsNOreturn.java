@@ -18,6 +18,7 @@ public class ArgsNOreturn {
         System.out.println("enter the value of num: ");
         int num = sc.nextInt();
         fac(num);
+        sc.close();
     }
     
 }

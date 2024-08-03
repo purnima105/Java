@@ -7,6 +7,7 @@ public class NoreturnNoargs
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the value of num: ");
         int num = sc.nextInt();
+        sc.close();
         int i,fact=1;
         for(i=1;i<=num;i++)
         {

@@ -13,6 +13,7 @@ System.out.println("enter the first number:" );
 int a=sc.nextInt();
 System.out.println("enter the second number:");
 int b=sc.nextInt(); 
+sc.close();
 switch(choice)
 {
 case 1:

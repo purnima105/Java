@@ -8,6 +8,7 @@ public class NOreturnNOargs
         int a=sc.nextInt();
         int b=sc.nextInt();
         System.out.println("The difference is = "+(a-b));
+        sc.close();
     }
     public static void main(String[]args)
     {

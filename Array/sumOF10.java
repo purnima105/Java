@@ -5,6 +5,7 @@ public class sumOF10
     public static void main(String[]args)
     {
         Scanner sc = new Scanner (System.in);
+        sc.close();
         int i,sum=0;
         int [] num= new int [10];
         for(i=0;i<num.length;i++)
