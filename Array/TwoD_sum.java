@@ -7,11 +7,12 @@ public class TwoD_sum{
         int [][] num = new int [2][3];
         int i,j;
         int sum=0;
+        System.out.println("Enter the elememts of array: ");
+
         for(i=0;i<2;i++)
         {
             for (j=0;j<3;j++)
             {
-                System.out.println("Enter the elememts of array: ");
                 num[i][j]= sc.nextInt();
                 sum=sum+num[i][j];
             }
