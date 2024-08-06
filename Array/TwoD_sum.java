@@ -1,3 +1,4 @@
+// to print the elements and sum of elements 
 package Array;
 
 import java.util.Scanner;
