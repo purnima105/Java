@@ -1,4 +1,4 @@
-//package Packages;
+package Packages;
 import Packages.MyPack.*;
 
 public class MainClass {
