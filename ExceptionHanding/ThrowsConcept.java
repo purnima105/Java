@@ -10,7 +10,7 @@ public class ThrowsConcept {
         ThrowVoting obj =new ThrowVoting();
         try 
         {
-            System.out.println(obj.division(15,0));
+            System.out.println(obj.division(15, 0));
         }
         catch(ArithmeticException e )
         {
