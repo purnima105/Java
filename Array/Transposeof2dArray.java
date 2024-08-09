@@ -14,29 +14,29 @@ public class Transposeof2dArray {
         
         System.out.println("Enter the elememts of array: ");
 
-        for(i=0;i<num.length;i++)
+        for(i=0;i<row;i++)
         {
-            for (j=0;j<num.length;j++)
+            for (j=0;j<column;j++)
             {
                 num[i][j]= sc.nextInt();
                 
             }
         }
         System.out.println("The elements entered by user : ");
-        for(i=0;i<num.length;i++)
+        for(i=0;i<row;i++)
         {
-            for (j=0;j<num.length;j++)
+            for (j=0;j<column;j++)
             {
                 System.out.print("  "+num[i][j]);
             }
             System.out.println("\n");
         }
         System.out.println("The transpose of elements : ");
-        for(i=0;i<num.length;i++)
+        for(i=0;i<column;i++)
         {
-            for (j=0;j<num.length;j++)
+            for (j=0;j<row;j++)
             {
-                System.out.print("  "+num[j][i]);
+                System.out.print("  "+num[i][j]);
             }
             System.out.println("\n");
         }
