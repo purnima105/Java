@@ -1,20 +1,14 @@
 package ExceptionHanding;
 
+import java.io.FileNotFoundException;
+
 public class ThrowsConcept {
-    int division(int a, int b) throws ArithmeticException
+    public void fun() throws ArrayIndexOutOfBoundsException,ArithmeticException,NullPointerException,FileNotFoundException
+    {
+        try
         {
-            int div=a/b;
-            return div;
-        }
-    public static void main(String[] args) {
-        ThrowVoting obj =new ThrowVoting();
-        try 
-        {
-            System.out.println(obj.division(15, 0));
-        }
-        catch(ArithmeticException e )
-        {
-            System.out.println("Cannot divide number by zero");
+            int a=
+
         }
     }
     
