@@ -1,5 +1,4 @@
-public class Series
-{
+public class Series {
 public static void main(String[]args)
 {
 int i;
