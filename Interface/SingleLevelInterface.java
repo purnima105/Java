@@ -16,7 +16,7 @@ class TestInterface implements i1 {
         System.out.println("f2() abstract method");
     }
 }
-public class SingleInterface {
+public class SingleLevelInterface {
     public static void main(String[] args) {
         TestInterface obj = new TestInterface();
         obj.f1();
