@@ -1,4 +1,4 @@
-public class Series {
+public class SeriesOfNum {
 public static void main(String[]args)
 {
 int i;

@@ -8,14 +8,10 @@ public class CheckedDemo {
         try
         {
             FileInputStream file = new FileInputStream("hdc.txt");
-
         }
         catch(FileNotFoundException e)
         {
             System.out.println(e.toString());
         }
-        
-    }
-
-    
+    }  
 }

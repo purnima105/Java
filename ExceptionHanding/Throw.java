@@ -7,7 +7,7 @@ class YoungerAgeException extends RuntimeException{
         super(msg);
     }
 }
-    public class thow1 {
+    public class Throw {
     public static void main(String[] args) {
         try
         {
