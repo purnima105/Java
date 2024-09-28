@@ -1,7 +1,4 @@
 package ExceptionHanding;
-
-
-
 class Throw {
     public void fun() throws ArrayIndexOutOfBoundsException,ArithmeticException
     {
