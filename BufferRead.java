@@ -1,5 +1,3 @@
-package FileHandling;
-
 import java.io.*;
 public class BufferRead {
     public static void main(String[] args) {
