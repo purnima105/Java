@@ -1,5 +1,3 @@
-package FileHandling;
-
 import java.io.*;
 public class WritingInFile {
     public static void main(String[] args) {
